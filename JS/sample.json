@@ -1,0 +1,22 @@
+[
+  {
+    "description": "description 1",
+    "amount": 55,
+    "id": "1"
+  },
+  {
+    "description": "description 2",
+    "amount": 16,
+    "id": "2"
+  },
+  {
+    "description": "description 3",
+    "amount": 67,
+    "id": "3"
+  },
+  {
+    "description": "description 4",
+    "amount": 14,
+    "id": "4"
+  }
+]

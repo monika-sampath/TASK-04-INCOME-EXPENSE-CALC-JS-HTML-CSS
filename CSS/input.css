@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .title{
+    @apply text-blue-950 text-3xl bg-neutral-100 flex justify-center py-10 font-serif font-bold
+ } 
+
+ #totalIncome{
+    @apply rounded-2xl bg-cyan-950 h-36 w-56  text-center flex items-center justify-center text-green-500 font-semibold font-serif px-4 py-6 drop-shadow-2xl border-green-500 border-4 shadow-xl shadow-green-500/25
+ }
+
+  #totalExpense{
+    @apply rounded-2xl bg-cyan-950 h-36 w-56  text-center flex items-center justify-center text-red-500 font-semibold font-serif px-4 py-6   border-red-500 border-4 shadow-xl shadow-red-500/25
+ }
+
+   #netBalance{
+    @apply rounded-2xl bg-cyan-950 h-36 w-56  text-center flex items-center justify-center text-blue-500 font-semibold font-serif px-4 py-6  border-blue-500 border-4 shadow-xl shadow-blue-500/25
+ }
+
+ .newDataDiv{
+    @apply w-[80%] bg-cyan-950 h-fit py-8 px-6 rounded-lg gap-y-6 flex-col flex ring-4 ring-cyan-950 ring-offset-4 shadow-xl shadow-cyan-950/25
+ }
+
+ .thirdDiv{
+    @apply justify-center items-center space-x-5
+ }
+
+ .thead{
+    @apply  bg-cyan-950 text-white font-serif text-lg 
+ }
+
+ @media (max-width: 768px)  {.content {flex-direction: column ;}}
+@media (min-width: 1025px)  {.desData {width:450px;}}
+@media (min-width: 1025px)  {.amtData {width:400px;}}
+@media (max-width: 768px)  {.actioncell{display: flex; flex-direction: column; align-items: center ;}}
